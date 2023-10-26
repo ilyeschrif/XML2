@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT banqueService (conversion,getCompte, getComptes)>
+<!ELEMENT conversion (montant)>
+<!ELEMENT montant (#PCDATA)>
+
+<!ELEMENT getCompte (Compte)>
+<!ELEMENT getcomptes (Compte+)>
+
+<!ELEMENT compte (code,solde,dateCreation)> 
+
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT solde (#PCDATA)>
+<!ELEMENT dateCreation (#PCDATA)>
+
+
+
+
+
+
